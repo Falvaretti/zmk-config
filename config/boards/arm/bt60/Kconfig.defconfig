@@ -13,6 +13,8 @@ config USB_NRFX
 
 config USB_DEVICE_STACK
 	default y
+	
+CONFIG_ZMK_HID_CONSUMER_REPORT_USAGES_BASIC=y
 
 endif # USB
 
